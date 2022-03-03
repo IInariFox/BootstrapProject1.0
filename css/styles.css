@@ -1,16 +1,18 @@
 body {
   background-color: rgb(35, 55, 146);
-  background: none;
 }
+
+/* Background image */
+
 
 /* Navbar */
 
 .navbar {
-  background-color: transparent;
+  background: transparent;
 }
 .navbar.scrolled {
   background-color:rgb(27, 49, 144);
-  transition: all 1s ease-out;
+  transition: all 1s ease-in-out;
 }
 
 .dropdown-toggle {
@@ -19,8 +21,6 @@ body {
 .dropdown-toggle:hover {
   color: white;
 }
-
-
 
 .nav-topic {
   color: rgb(199, 199, 199);

@@ -19,103 +19,95 @@
 </head>
 
 <body>
-  <div class="container-fluid px-0">
+  <nav class="navbar navbar-expand-md sticky-top">
+    <a class="navbar-brand" href="#">
+      <img src="images/logo.png" height="60" width="60" />
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="firstNavDropdown" role="button" data-toggle="dropdown">
+            game_Name
+          </a>
+          <div class="dropdown-menu p-0 m-0">
+            <a class="dropdown-item text-center" href="#">Play For Free</a>
+            <a class="dropdown-item mt-1 text-center" href="#">Current Expansion</a>
+            <a class="dropdown-item mt-1 text-center" href="#">Past Expansions</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="secondNavDropdown" role="button" data-toggle="dropdown">
+            SEASONS
+          </a>
+          <div class="dropdown-menu p-0 m-0">
+            <a class="dropdown-item text-center" href="#">Current Exansion</a>
+            <a class="dropdown-item mt-1 text-center" href="#">Season of The Season</a>
+            <a class="dropdown-item mt-1 text-center" href="#">Season of The Other Season</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="thirdNavDropdown" role="button" data-toggle="dropdown">
+            COMMUNITY
+          </a>
+          <div class="dropdown-menu p-0 m-0">
+            <a class="dropdown-item text-center" href="#">Forums</a>
+            <a class="dropdown-item mt-1 text-center" href="#">FAQs</a>
+            <a class="dropdown-item mt-1 text-center" href="#">Find a Fireteam</a>
+            <a class="dropdown-item mt-1 text-center" href="#">Find Clan</a>
+            <a class="dropdown-item mt-1 text-center" href="#">News</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="thirdNavDropdown" role="button" data-toggle="dropdown">
+            STORE
+          </a>
+          <div class="dropdown-menu p-0 m-0">
+            <a class="dropdown-item text-center" href="#">Buy game_Name</a>
+            <a class="dropdown-item mt-1 text-center" href="#">Buy Merch</a>
+            <a class="dropdown-item mt-1 text-center" href="#">Buy Expansions</a>
+          </div>
+        </li>
+      </ul>
+      <div class="d-md-none d-md-block">
+        <a id="playGameButton" class="btn btn-light text-nowrap" href="#">Play The Game</a>
+        <!--insert future href-->
+      </div>
+      <ul class="navbar-nav pl-2">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="myAccount" role="button" data-toggle="dropdown">
+            MY ACCOUNT
+          </a>
+          <div class="dropdown-menu p-0 m-0 bg-transparent">
+            <header class="text-center text-white">
+              <h6 class="bold">Sign-In</h6>
+            </header>
+            <a class="dropdown-item bg-success text-white text-center" href="#"><i class="fab fa-xbox"></i></a>
+            <a class="dropdown-item bg-secondary text-white text-center" href="#"><i class="fab fa-steam"></i></a>
+            <a class="dropdown-item bg-primary text-white text-center" href="#"><i class="fab fa-playstation"></i></a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="fa fa-search fa-lg nav-topic">
+            </i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="fa fa-globe fa-lg nav-topic">
+            </i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container-fluid px-0 py-0">
     <div class="row">
-      <div class="col-md-12">
-        <div class="image-parent">
-          <nav class="navbar navbar-expand-sm sticky-top">
-            <a class="navbar-brand" href="#">
-              <img src="images/logo.png" height="60" width="60" />
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="firstNavDropdown" role="button"
-                    data-toggle="dropdown">
-                    game_Name
-                  </a>
-                  <div class="dropdown-menu p-0 m-0">
-                    <a class="dropdown-item text-center" href="#">Play For Free</a>
-                    <a class="dropdown-item mt-1 text-center" href="#">Current Expansion</a>
-                    <a class="dropdown-item mt-1 text-center" href="#">Past Expansions</a>
-                  </div>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="secondNavDropdown" role="button"
-                    data-toggle="dropdown">
-                    SEASONS
-                  </a>
-                  <div class="dropdown-menu p-0 m-0">
-                    <a class="dropdown-item text-center" href="#">Current Exansion</a>
-                    <a class="dropdown-item mt-1 text-center" href="#">Season of The Season</a>
-                    <a class="dropdown-item mt-1 text-center" href="#">Season of The Other Season</a>
-                  </div>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="thirdNavDropdown" role="button"
-                    data-toggle="dropdown">
-                    COMMUNITY
-                  </a>
-                  <div class="dropdown-menu p-0 m-0">
-                    <a class="dropdown-item text-center" href="#">Forums</a>
-                    <a class="dropdown-item mt-1 text-center" href="#">FAQs</a>
-                    <a class="dropdown-item mt-1 text-center" href="#">Find a Fireteam</a>
-                    <a class="dropdown-item mt-1 text-center" href="#">Find Clan</a>
-                    <a class="dropdown-item mt-1 text-center" href="#">News</a>
-                  </div>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="thirdNavDropdown" role="button"
-                    data-toggle="dropdown">
-                    STORE
-                  </a>
-                  <div class="dropdown-menu p-0 m-0">
-                    <a class="dropdown-item text-center" href="#">Buy game_Name</a>
-                    <a class="dropdown-item mt-1 text-center" href="#">Buy Merch</a>
-                    <a class="dropdown-item mt-1 text-center" href="#">Buy Expansions</a>
-                  </div>
-                </li>
-              </ul>
-              <div class="d-xl-none d-xl-block">
-                <a id="playGameButton" class="btn btn-light text-nowrap" href="#">Play The Game</a>
-                <!--insert future href-->
-              </div>
-              <ul class="navbar-nav pl-2">
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="myAccount" role="button" data-toggle="dropdown">
-                    MY ACCOUNT
-                  </a>
-                  <div class="dropdown-menu p-0 m-0 bg-transparent">
-                    <header class="text-center text-white">
-                      <h6 class="bold">Sign-In</h6>
-                    </header>
-                    <a class="dropdown-item bg-success text-white text-center" href="#"><i class="fab fa-xbox"></i></a>
-                    <a class="dropdown-item bg-secondary text-white text-center" href="#"><i
-                        class="fab fa-steam"></i></a>
-                    <a class="dropdown-item bg-primary text-white text-center" href="#"><i
-                        class="fab fa-playstation"></i></a>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    <i class="fa fa-search fa-lg nav-topic">
-                    </i>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    <i class="fa fa-globe fa-lg nav-topic">
-                    </i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-          <img src="./images/background.jpg" alt="background image" class="img-fluid">
-        </div>
+      <div class="col">
+        <img id="backgroundImage" src="./images/background.jpg" alt="background image" class="img-fluid">
       </div>
     </div>
   </div>
