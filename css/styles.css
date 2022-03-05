@@ -4,6 +4,9 @@ body {
 
 /* Background image */
 
+.image-row {
+  margin-top: -86px;
+}
 
 /* Navbar */
 
